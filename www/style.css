@@ -1,0 +1,75 @@
+body{
+    background-color:black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.Square{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Square span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at center, #6b72ff00 40%, #000dff3b 50%);
+    box-shadow: 0 0 50px rgb(25,0,255), inset 0 0 50px;
+    border-radius: 38% 62% 63% 37% / 41% 37% 56% 59%;
+    transition: 0.5s;
+    animation: animat1 6s linear infinite;
+}
+.Square span:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at center, #6b72ff00 40%, #000dff3b 50%);
+    box-shadow: 0 0 50px rgb(25,0,255), inset 0 0 50px;
+    border-radius: 38% 62% 63% 37% / 41% 37% 56% 59%;
+    transition: 0.5s;
+    animation: animat2 4s linear infinite;
+}
+.Square span:nth-child(3){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at center, #6b72ff00 40%, #000dff3b 50%);
+    box-shadow: 0 0 50px rgb(25,0,255), inset 0 0 50px;
+    border-radius: 38% 62% 63% 37% / 41% 37% 56% 59%;
+    transition: 0.5s;
+    animation: animat3 8s linear infinite;
+}
+@keyframes animat1 {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+@keyframes animat2 {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+@keyframes animat3 {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+h5 {
+  color: cyan;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+  margin-top: 20px;
+}
+
+h6 {
+  color: cyan;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+  margin-top: 20px;
+}
